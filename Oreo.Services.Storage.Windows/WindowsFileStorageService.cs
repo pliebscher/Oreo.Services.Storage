@@ -69,12 +69,12 @@ namespace Oreo.Services.Storage.Windows
         {
             if (string.IsNullOrWhiteSpace(fileName)) throw new ArgumentNullException("fileName");
 
-            string path = Path.Combine(_basePath, fileName);
+            string fullPath = Path.Combine(_basePath, fileName);
 
-            if (!File.Exists(path)) throw new FileNotFoundException(fileName);
+            if (!File.Exists(fullPath)) throw new FileNotFoundException(fileName);
 
             MemoryStream ms = new MemoryStream();
-            using (FileStream fs = new FileStream(path, FileMode.Open))
+            using (FileStream fs = new FileStream(fullPath, FileMode.Open))
             {
                 fs.CopyTo(ms);
             }

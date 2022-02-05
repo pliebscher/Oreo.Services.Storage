@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oreo.Services.Storage.Core"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oreo.Services.Storage.Windows", "Oreo.Services.Storage.Windows\Oreo.Services.Storage.Windows.csproj", "{55432C34-3D0D-4812-8B3F-80334B6FE62C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oreo.Services.Storage.Azure", "Oreo.Services.Storage.Azure\Oreo.Services.Storage.Azure.csproj", "{8B12AA0B-A006-4F60-8083-326B0DDC17C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{55432C34-3D0D-4812-8B3F-80334B6FE62C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55432C34-3D0D-4812-8B3F-80334B6FE62C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55432C34-3D0D-4812-8B3F-80334B6FE62C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B12AA0B-A006-4F60-8083-326B0DDC17C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B12AA0B-A006-4F60-8083-326B0DDC17C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B12AA0B-A006-4F60-8083-326B0DDC17C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B12AA0B-A006-4F60-8083-326B0DDC17C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
